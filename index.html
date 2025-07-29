@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Invitación XV Años Sarah</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+  <div class="fondo">
+    
+    <header>
+      <img src="img/header.png" alt="Invitación Sarah" class="banner" />
+    </header>
+ 
+
+    <section class="countdown-section">
+    <!--  <img src="img/countdown.png" class="background-img" />-->
+     
+      <div id="countdown" style="font-size: 1.5rem; text-align: center;"></div>
+      
+    </section>
+
+
+    <section class="itinerary">
+      <!--<img src="img/ubicacion.png" class="background-img" />-->
+
+      <div id="itinerary" style="font-size: 1.5rem; text-align: center;"></div>
+     
+    </section>
+
+    <section class="registro">
+      <h2>Registro</h2>
+      <form id="confirmacion-form">
+        <label>Nombre<input type="text" name="nombre" required /></label>
+        <label>Teléfono<input type="tel" name="telefono" required /></label>
+        <label>Número de invitados
+          <select name="invitados">
+            <option>1</option><option>2</option><option>3</option><option>4+</option>
+          </select>
+        </label>
+        <label>¿Asistiré?
+          <select name="asistencia">
+            <option>Sí</option><option>No</option><option>Tal vez</option>
+          </select>
+        </label>
+        <label>Mensaje<input type="text" name="mensaje" /></label>
+        <button type="submit">Enviar confirmación</button>
+      </form>
+    </section>
+
+    <section class="regalos">
+
+    </section>
+
+  </div>
+  <script src="contador.js"></script>
+
+
+
+
+</body>
