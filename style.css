@@ -158,7 +158,46 @@ background-color: transparent; /* blanco semitransparente */
   position: relative; /* necesario para posicionar el countdown */
   
 }
-
+.sarah1 {
+  background-image: url("img/sara1.png"); /* asegúrate que esta ruta sea correcta */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 100vh; /* altura responsiva: 100% del alto visible */
+  min-height: 130vh;
+  position: relative; /* necesario para posicionar el countdown */
+  
+}
+.sarah2 {
+  background-image: url("img/sara2.png"); /* asegúrate que esta ruta sea correcta */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 100vh; /* altura responsiva: 100% del alto visible */
+  min-height: 130vh;
+  position: relative; /* necesario para posicionar el countdown */
+  
+}
+.sarah3 {
+  background-image: url("img/sara3.png"); /* asegúrate que esta ruta sea correcta */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 100vh; /* altura responsiva: 100% del alto visible */
+  min-height: 130vh;
+  position: relative; /* necesario para posicionar el countdown */
+  
+}
+.sarah4 {
+  background-image: url("img/sara4.png"); /* asegúrate que esta ruta sea correcta */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 100vh; /* altura responsiva: 100% del alto visible */
+  min-height: 130vh;
+  position: relative; /* necesario para posicionar el countdown */
+  
+}
 
 
 
